@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "ldap.funcionarios.host",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.host'"
+  },
+  {
+    "name": "ldap.funcionarios.port",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.port'"
+  },
+  {
+    "name": "ldap.funcionarios.username",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.username'"
+  },
+  {
+    "name": "ldap.funcionarios.password",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.password'"
+  },
+  {
+    "name": "ldap.funcionarios.base-dn",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.base-dn'"
+  },
+  {
+    "name": "ldap.funcionarios.attribs.find-by-username",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.attribs.find-by-username'"
+  },
+  {
+    "name": "ldap.funcionarios.attribs.findByRut",
+    "type": "java.lang.String",
+    "description": "A description for 'ldap.funcionarios.attribs.findByRut'"
+  }
+]}

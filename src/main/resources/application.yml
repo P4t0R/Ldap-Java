@@ -1,0 +1,19 @@
+server:
+  port: 8095
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    
+ldap:
+  funcionarios:
+    host: ldap://localhost
+    port: 10389
+    username: uid=admin,ou=system
+    password: secret
+    base-dn: dc=example,dc=com
+    attribs:
+      findByUsername: BSalias,sn,comdescpuesto,mail,cn
+      findByRut: BSalias,sn,comdescpuesto,mail
+      
+
+    
